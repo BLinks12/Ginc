@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f2;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffcc99;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px;
+  background: url('hero-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 3em;
+}
+
+#hero button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+#about {
+  background-color: #fff4e6;
+}
+
+#tokenomics .tokenomics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#roadmap ul {
+  list-style: none;
+  padding: 0;
+}
+
+#roadmap ul li {
+  padding: 10px;
+  background-color: #ffe0b3;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ffcc99;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
